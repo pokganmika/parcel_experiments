@@ -1,0 +1,27 @@
+{
+  "name": "parcel_experiments",
+  "version": "1.0.0",
+  "description": "Setting up a professional React project with Parcel as a code bundler.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokganmika/parcel_experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pokganmika/parcel_experiments/issues"
+  },
+  "homepage": "https://github.com/pokganmika/parcel_experiments#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
