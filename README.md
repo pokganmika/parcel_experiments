@@ -4,8 +4,8 @@ Setting up a professional React project with Parcel as a code bundler.
 
 ## Feater
 
-- React
-- ES6 with Babel
+- React (V)
+- ES6 with Babel (V)
 - SCSS
 - CSS Modules
 - Typography.js
