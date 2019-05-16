@@ -6,7 +6,7 @@ Setting up a professional React project with Parcel as a code bundler.
 
 - React (V)
 - ES6 with Babel (V)
-- SCSS
-- CSS Modules
-- Typography.js
-- Build for production
+- SCSS (V)
+- CSS Modules (V)
+- Typography.js (V)
+- Build for production (V)

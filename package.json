@@ -3,31 +3,28 @@
   "version": "1.0.0",
   "description": "Setting up a professional React project with Parcel as a code bundler.",
   "main": "index.js",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html -d build --public-url ./"
-  },
+  "author": "",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pokganmika/parcel_experiments.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pokganmika/parcel_experiments/issues"
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d build --public-url ./"
   },
-  "homepage": "https://github.com/pokganmika/parcel_experiments#readme",
   "dependencies": {
-    "autoprefixer": "^9.5.1",
-    "postcss-modules": "^1.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0",
     "typography": "^0.16.19"
   },
   "devDependencies": {
+    "autoprefixer": "^9.5.1",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "sass": "^1.20.1"
+    "node-sass": "^4.12.0",
+    "postcss-modules": "^1.4.1"
   }
 }

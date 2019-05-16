@@ -1,7 +1,7 @@
-import Typography from 'typography';
+import Typography from "typography";
 
 const typography = new Typography({
-  baseFontSize: '18px',
+  baseFontSize: "18px",
   baseLineHeight: 1.666,
   googleFonts: [
     {
@@ -9,12 +9,20 @@ const typography = new Typography({
       styles: ["700"]
     },
     {
-      name: "Open Sans",
-      styles: ["400"]
+      name: "Merriweather",
+      styles: ["400", "400i", "700", "700i"]
     }
   ],
-  headerFontFamily: ["Montserrat", "Helvetica Neue", "sans-serif"],
-  bodyFontFamily: ["Open Sans", "sans-serif"]
+  headerFontFamily: [
+    "Montserrat",
+    "Helvetica Neue",
+    "Segoe UI",
+    "Helvetica",
+    "Arial",
+    "sans-serif"
+  ],
+  bodyFontFamily: ["Merriweather", "sans-serif"]
+  // See below for the full list of options.
 });
 
 typography.injectStyles();
